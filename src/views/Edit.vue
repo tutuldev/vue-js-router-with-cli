@@ -16,4 +16,9 @@ data(){
 
 }
 </script>
-
+<!-- scoped diyle sob pege pabe na sudu ei page tei pabe -->
+<style scoped>
+h3 {
+  color: red;
+}
+</style>

@@ -30,7 +30,9 @@ nav a {
   color: #2c3e50;
 }
 
+/* active hole kaj korbe  */
 nav a.router-link-exact-active {
-  color: #42b983;
+  /* color: #42b983; */
+  color: blue;
 }
 </style>
