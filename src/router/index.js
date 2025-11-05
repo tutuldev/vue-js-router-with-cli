@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import ContactVue from '../views/ContactVue.vue'
 import TestVue from '@/views/TestVue.vue'
 import edit from '@/views/Edit.vue'
+import LoginVue from '@/views/Login.vue'
+import dashboard from '@/views/Dashboard.vue'
 
 const routes = [
   {
@@ -34,6 +36,19 @@ const routes = [
     path: '/edit-category/:id',
     name: 'edit',
     component:edit
+ 
+  },
+     {
+    path: '/login',
+    name: 'login',
+    component:LoginVue
+ 
+  }
+  ,
+     {
+    path: '/dashboard',
+    name: 'dashboard',
+    component:dashboard
  
   }
 ]

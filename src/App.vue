@@ -4,7 +4,9 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/contact">contact</router-link> |
     <router-link :to="{name:'test'}">test</router-link> |
-    <router-link :to="{name:'edit', params:{id:10}}">Edit data</router-link> 
+    <router-link :to="{name:'edit', params:{id:10}}">Edit data</router-link> |
+    <router-link to="/login">login</router-link> 
+
   
   </nav>
   <router-view/>
