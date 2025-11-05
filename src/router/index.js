@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ContactVue from '../views/ContactVue.vue'
 import TestVue from '@/views/TestVue.vue'
+import edit from '@/views/Edit.vue'
 
 const routes = [
   {
@@ -27,6 +28,12 @@ const routes = [
     path: '/test',
     name: 'test',
     component:TestVue
+ 
+  },
+     {
+    path: '/edit-category/:id',
+    name: 'edit',
+    component:edit
  
   }
 ]
